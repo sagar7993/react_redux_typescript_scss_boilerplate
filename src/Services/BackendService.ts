@@ -1,6 +1,6 @@
 import { MyHttpHeadersOptions } from '../Contracts';
 
-const baseApiUrl: string | undefined = process.env.REACT_APP_BASE_APP_URL;
+const baseApiUrl: string | undefined = process.env.REACT_APP_BASE_API_URL;
 
 const setHeaders = (urlEncodedForm: boolean) => {
     const additionalHeaders = {};

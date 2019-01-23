@@ -1,3 +1,20 @@
+export class Product {
+    id: string;
+    createdAt: string;
+    name: string;
+    cost: string;
+}
+
+export class Transaction {
+    id: string;
+    createdAt: string;
+    product: string;
+    value: string;
+    quantity: string;
+    vendor: string;
+    channel: string;
+}
+
 export const updateObjectImmutably = (oldObject, newValuesObject) => {
     return {
         ...oldObject,
