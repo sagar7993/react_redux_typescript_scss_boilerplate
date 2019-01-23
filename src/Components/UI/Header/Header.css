@@ -1,0 +1,12 @@
+nav {
+    background-color: #007BFF;
+}
+
+nav .nav-wrapper .brand-logo {
+    height: inherit;
+}
+
+nav .nav-wrapper .brand-logo img.logo {
+    height: inherit;
+    max-width: 100px;
+}

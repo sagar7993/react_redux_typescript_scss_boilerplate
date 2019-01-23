@@ -1,0 +1,100 @@
+.error-container {
+    width: 100%;
+    height: inherit;
+    padding-top: 1.5rem;
+}
+
+.error-container .error-icon {
+    background: url('../../Assets/images/404.jpg') no-repeat;
+    background-position: center;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    background-size: contain;
+    position: relative;
+}
+
+.error-container .error-note .error-link,
+.error-container .error-note .error-link:hover,
+.error-container .error-note .error-link:focus,
+.error-container .error-note .error-link:active {
+    color: #007BFF !important;
+    font-weight: 600 !important;
+    outline: none !important;
+}
+
+.error-container .error-message {
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    width: 90%;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.error-container .retry {
+    color: #007BFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.error-container .redirection-message {
+    z-index: 1;
+    background: #636363;
+    min-height: 48px;
+    border-radius: 48px;
+    top: 160px;
+    opacity: 0.9;
+    text-align: center;
+    color: #fafafa;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    max-width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+    font-family: 'Open Sans', helvetica, sans-serif;
+}
+
+.error-container .redirection-message p {
+    margin: 1rem;
+}
+
+.error-container .error-note {
+    text-align: center;
+    background-color: #007BFF;
+    max-width: 320px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+}
+
+.error-container .error-note .title-note {
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.error-container .error-note .body-note {
+    font-size: 0.875rem;
+    line-height: 1.7;
+}
+
+@media all and (min-width: 601px) {
+    .error-container .error-message {
+        font-size: 1rem;
+        max-width: 300px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .error-container .redirection-message {
+        width: 90vw;
+        top: 90px;
+    }
+}

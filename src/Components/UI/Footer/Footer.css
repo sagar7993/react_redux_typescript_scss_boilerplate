@@ -1,0 +1,14 @@
+footer {
+    display: block;
+}
+
+.copyright {
+	font-size: 0.75rem;
+    color: #aaa;
+    width: 300px;
+    position: absolute;
+    bottom: -40px;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

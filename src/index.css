@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,500,600,700");
+body {
+  background: #fafafa;
+  font-family: 'Open Sans', helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  margin: 0;
+  padding: 0; }
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent; }
+
+a {
+  text-decoration: none; }
+
+button,
+.cursor-pointer {
+  cursor: pointer; }
+
+button:focus,
+a:focus {
+  outline: none; }
+
+.hidden {
+  display: none !important; }
+
+.caps {
+  text-transform: uppercase; }
+
+.text-center {
+  text-align: center !important; }
+
+.text-left {
+  text-align: left !important; }
+
+.text-right {
+  text-align: right !important; }
+
+.text-blue {
+  color: #1f6dae; }
+
+.block {
+  display: block !important; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  min-height: calc(100vh - 60px);
+  margin-bottom: 60px;
+  position: relative; }
+
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+  display: block;
+  font-family: 'Open Sans', helvetica, sans-serif;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 0;
+  padding: 0 20px;
+  min-width: 240px;
+  color: #FFFFFF;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: none;
+  outline: none; }
+
+.btn-full,
+.btn-full:hover,
+.btn-full:focus,
+.btn-full:active {
+  max-width: 300px !important; }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #007BFF; }
+
+.btn-inv,
+.btn-inv:hover,
+.btn-inv:focus,
+.btn-inv:active {
+  color: #007BFF;
+  border: 1px solid #007BFF;
+  background-color: transparent !important; }
+
+.btn:disabled,
+.btn:disabled:hover,
+.btn:disabled:focus,
+.btn:disabled:active {
+  background-color: #dadada;
+  cursor: auto; }
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  outline: none; }
+
+@media all and (min-width: 601px) {
+  .container {
+    max-width: 100% !important;
+    background: #fafafa;
+    margin: 0 auto;
+    min-height: 600px;
+    margin-bottom: 60px;
+    position: relative; }
+  .margin-normalizer {
+    display: block;
+    height: 1px; } }

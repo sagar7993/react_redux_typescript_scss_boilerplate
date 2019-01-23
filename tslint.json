@@ -1,0 +1,71 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {
+    "no-empty": true
+  },
+  "rules": {
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-pascal-case",
+      "allow-snake-case"
+    ],
+    "no-unused-expression": [
+      false,
+      "allow-fast-null-checks"
+    ],
+    "max-classes-per-file": [
+      false,
+      0
+    ],
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "no-empty": [
+      false,
+      "allow-empty-catch",
+      "allow-empty-functions"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "eofline": false,
+    "semicolon": true,
+    "no-console": false,
+    "no-eval": false,
+    "array-type": false,
+    "no-shadowed-variable": false,
+    "member-access": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-string-literal": false,
+    "no-empty-interface": false,
+    "jsx-boolean-value": false,
+    "jsx-self-close": false,
+    "jsx-no-lambda": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "public/**/*.js"
+    ]
+  }
+}
