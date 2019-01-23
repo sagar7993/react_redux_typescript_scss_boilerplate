@@ -72,3 +72,16 @@ class LocalStorage implements LocalStorage {
 }
 
 export const MyLocalStorage: LocalStorage = new LocalStorage();
+
+export class MyHttpHeadersOptions {
+    method: string;
+    baseURL: string | undefined;
+    url: string;
+    headers?: any;
+    data?: any;
+    constructor(method: string, baseUrl: string | undefined, url: string) {
+        this.method = method;
+        this.baseURL = baseUrl;
+        this.url = url;
+    }
+}

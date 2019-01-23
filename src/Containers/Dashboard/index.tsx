@@ -2,6 +2,8 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 
 import WrappingComponent from '../../Components/HigherOrderComponents/WrappingComponent';
+import HttpStatusGuard from 'src/Services/RouteGuards/HttpStatusGuard';
+
 import MyLoader from '../../Components/UI/Loader';
 
 import { MyActionCreators } from '../../Actions';
@@ -53,4 +55,4 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(MyDashboard);
+export default connect(mapStateToProps, mapDispatchToProps)(HttpStatusGuard(MyDashboard));
